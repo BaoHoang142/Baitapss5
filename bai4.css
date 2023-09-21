@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 800px;
+    height: 700px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px 400px;
+}
+.container__blocka--img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.container__blocka {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+
+.container__blockb {
+    text-align: center;
+    margin-top: 30px;
+}
+.dki {
+    margin-bottom: 20px;
+}
+
+.container__blockb--login {
+    text-align: center;
+  }
+  .container__blockb--login li {
+    display: inline;
+    margin: 0 12px;
+  }
+  .container__blockb--login li a {
+    background-color: #2d3032;
+    border-radius: 6px;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    line-height: 56px;
+    min-width: 170px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    margin-top: 10px;
+  }
+  .container__blockb--login li a:hover {
+    background-color: #00aeef;
+  }
+
+.container__blockc--nicktop, .container__blockc--nickbot {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.container__blockc--nicktop--nicka, .container__blockc--nicktop--nickb, .container__blockc--nicktop--nickc, .container__blockc--nickbot--nicka, .container__blockc--nickbot--nickb, .container__blockc--nickbot--nickc {
+    width: 200px;
+    height: 200px;
+}
+img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px 5px #ddd;
+    color: #676767;
+}

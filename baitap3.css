@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 1480px;
+    height: 700px;
+    /* border: 1px solid black; */
+    margin: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container__blocka nav{
+    background-color: rgb(233, 221, 221);
+    margin: 5px 20px;
+    display: flex;
+    justify-content:space-evenly;
+    height: 30px;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    margin-top: 5px;
+}
+
+.container__blockb {
+    margin-top: 40px;
+    text-align: center;
+}
+h1 {
+    font-size:40px;
+}
+button {
+    margin-top: 10px;
+    background-color:rgb(242, 154, 154);
+    color: black;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+h2 {
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.container__blockc {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+.container__blockc--kaisa, .container__blockc--missfortune, .container__blockc--ashe, .container__blockc--janna {
+    width: 300px;
+    height: 200px;
+   
+}
+img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px 5px #ddd;
+    color: #676767;
+}
+
+
+.container__blockd {
+    margin-top: 40px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.container__blocke {
+    
+    background-color: black;
+    color: white;
+    margin: 40px 20px;
+    height: 30px;
+}
